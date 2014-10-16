@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777B4ADC19ED473000251247 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4ACE19ED473000251247 /* back1.png */; };
+		777B4ADD19ED473000251247 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4ACF19ED473000251247 /* back2.png */; };
+		777B4ADE19ED473000251247 /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD019ED473000251247 /* back3.png */; };
+		777B4ADF19ED473000251247 /* back4.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD119ED473000251247 /* back4.png */; };
+		777B4AE019ED473000251247 /* back5.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD219ED473000251247 /* back5.png */; };
+		777B4AE119ED473000251247 /* hoshi01.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD419ED473000251247 /* hoshi01.png */; };
+		777B4AE219ED473000251247 /* hoshi11.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD519ED473000251247 /* hoshi11.png */; };
+		777B4AE319ED473000251247 /* hoshi12.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD619ED473000251247 /* hoshi12.png */; };
+		777B4AE419ED473000251247 /* hoshi13.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD719ED473000251247 /* hoshi13.png */; };
+		777B4AE519ED473000251247 /* hoshi21.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD819ED473000251247 /* hoshi21.png */; };
+		777B4AE619ED473000251247 /* hoshi22.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4AD919ED473000251247 /* hoshi22.png */; };
+		777B4AE719ED473000251247 /* hoshi23.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4ADA19ED473000251247 /* hoshi23.png */; };
+		777B4AE819ED473000251247 /* hoshi99.png in Resources */ = {isa = PBXBuildFile; fileRef = 777B4ADB19ED473000251247 /* hoshi99.png */; };
 		77D1973C19EBE4160034024A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1973B19EBE4160034024A /* Foundation.framework */; };
 		77D1973E19EBE4160034024A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1973D19EBE4160034024A /* CoreGraphics.framework */; };
 		77D1974019EBE4160034024A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1973F19EBE4160034024A /* UIKit.framework */; };
@@ -21,6 +34,7 @@
 		77D1975D19EBE4160034024A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1973F19EBE4160034024A /* UIKit.framework */; };
 		77D1976519EBE4160034024A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D1976319EBE4160034024A /* InfoPlist.strings */; };
 		77D1976719EBE4160034024A /* parettoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1976619EBE4160034024A /* parettoTests.m */; };
+		77D1977319EBEEBC0034024A /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1977219EBEEBC0034024A /* ColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		777B4ACE19ED473000251247 /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
+		777B4ACF19ED473000251247 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		777B4AD019ED473000251247 /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
+		777B4AD119ED473000251247 /* back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back4.png; sourceTree = "<group>"; };
+		777B4AD219ED473000251247 /* back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back5.png; sourceTree = "<group>"; };
+		777B4AD419ED473000251247 /* hoshi01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi01.png; sourceTree = "<group>"; };
+		777B4AD519ED473000251247 /* hoshi11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi11.png; sourceTree = "<group>"; };
+		777B4AD619ED473000251247 /* hoshi12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi12.png; sourceTree = "<group>"; };
+		777B4AD719ED473000251247 /* hoshi13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi13.png; sourceTree = "<group>"; };
+		777B4AD819ED473000251247 /* hoshi21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi21.png; sourceTree = "<group>"; };
+		777B4AD919ED473000251247 /* hoshi22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi22.png; sourceTree = "<group>"; };
+		777B4ADA19ED473000251247 /* hoshi23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi23.png; sourceTree = "<group>"; };
+		777B4ADB19ED473000251247 /* hoshi99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi99.png; sourceTree = "<group>"; };
 		77D1973819EBE4160034024A /* paretto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paretto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D1973B19EBE4160034024A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77D1973D19EBE4160034024A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +80,8 @@
 		77D1976219EBE4160034024A /* parettoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parettoTests-Info.plist"; sourceTree = "<group>"; };
 		77D1976419EBE4160034024A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77D1976619EBE4160034024A /* parettoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parettoTests.m; sourceTree = "<group>"; };
+		77D1977119EBEEBC0034024A /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		77D1977219EBEEBC0034024A /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		777B4ACD19ED473000251247 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				777B4ACE19ED473000251247 /* back1.png */,
+				777B4ACF19ED473000251247 /* back2.png */,
+				777B4AD019ED473000251247 /* back3.png */,
+				777B4AD119ED473000251247 /* back4.png */,
+				777B4AD219ED473000251247 /* back5.png */,
+				777B4AD319ED473000251247 /* stamps */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		777B4AD319ED473000251247 /* stamps */ = {
+			isa = PBXGroup;
+			children = (
+				777B4AD419ED473000251247 /* hoshi01.png */,
+				777B4AD519ED473000251247 /* hoshi11.png */,
+				777B4AD619ED473000251247 /* hoshi12.png */,
+				777B4AD719ED473000251247 /* hoshi13.png */,
+				777B4AD819ED473000251247 /* hoshi21.png */,
+				777B4AD919ED473000251247 /* hoshi22.png */,
+				777B4ADA19ED473000251247 /* hoshi23.png */,
+				777B4ADB19ED473000251247 /* hoshi99.png */,
+			);
+			path = stamps;
+			sourceTree = "<group>";
+		};
 		77D1972F19EBE4160034024A = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +169,14 @@
 		77D1974119EBE4160034024A /* paretto */ = {
 			isa = PBXGroup;
 			children = (
+				777B4ACD19ED473000251247 /* background */,
 				77D1974A19EBE4160034024A /* AppDelegate.h */,
 				77D1974B19EBE4160034024A /* AppDelegate.m */,
 				77D1974D19EBE4160034024A /* Main.storyboard */,
 				77D1975019EBE4160034024A /* ViewController.h */,
 				77D1975119EBE4160034024A /* ViewController.m */,
+				77D1977119EBEEBC0034024A /* ColorViewController.h */,
+				77D1977219EBEEBC0034024A /* ColorViewController.m */,
 				77D1975319EBE4160034024A /* Images.xcassets */,
 				77D1974219EBE4160034024A /* Supporting Files */,
 			);
@@ -228,9 +288,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777B4ADE19ED473000251247 /* back3.png in Resources */,
+				777B4AE219ED473000251247 /* hoshi11.png in Resources */,
+				777B4AE719ED473000251247 /* hoshi23.png in Resources */,
 				77D1975419EBE4160034024A /* Images.xcassets in Resources */,
+				777B4AE119ED473000251247 /* hoshi01.png in Resources */,
+				777B4AE019ED473000251247 /* back5.png in Resources */,
+				777B4AE519ED473000251247 /* hoshi21.png in Resources */,
+				777B4AE419ED473000251247 /* hoshi13.png in Resources */,
+				777B4ADF19ED473000251247 /* back4.png in Resources */,
 				77D1974619EBE4160034024A /* InfoPlist.strings in Resources */,
+				777B4ADC19ED473000251247 /* back1.png in Resources */,
+				777B4AE819ED473000251247 /* hoshi99.png in Resources */,
 				77D1974F19EBE4160034024A /* Main.storyboard in Resources */,
+				777B4AE619ED473000251247 /* hoshi22.png in Resources */,
+				777B4AE319ED473000251247 /* hoshi12.png in Resources */,
+				777B4ADD19ED473000251247 /* back2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +324,7 @@
 			files = (
 				77D1975219EBE4160034024A /* ViewController.m in Sources */,
 				77D1974C19EBE4160034024A /* AppDelegate.m in Sources */,
+				77D1977319EBEEBC0034024A /* ColorViewController.m in Sources */,
 				77D1974819EBE4160034024A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +530,7 @@
 				77D1976C19EBE4160034024A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77D1976D19EBE4160034024A /* Build configuration list for PBXNativeTarget "parettoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +539,7 @@
 				77D1976F19EBE4160034024A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
